@@ -10,12 +10,12 @@ namespace API.Controllers
 {
 
     [ApiController]
-    [Route("api/[controller]/id")]
-    public class UserController : ControllerBase
+    [Route("api/[controller]")]
+    public class UsersController : ControllerBase
     {
         private readonly DataContext _context;
 
-        public UserController( DataContext context)
+        public UsersController( DataContext context)
         {
             _context = context;
         }
