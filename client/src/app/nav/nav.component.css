@@ -1,3 +1,14 @@
 .dropsown-toggle, .dropdown-item {
     cursor: pointer;
 }
+
+img {
+    max-height: 50px;
+    border: 2px solid #fff;
+    display: inline-block;
+    border-radius: 30px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
