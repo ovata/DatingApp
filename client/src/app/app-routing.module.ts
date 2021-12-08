@@ -13,7 +13,7 @@ import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { PreventUnsavedChangesGuard } from './_guard/prevent-unsaved-changes.guard';
 
 const routes: Routes = [
-  { path: ' ', component: HomeComponent },
+  { path: '', component: HomeComponent },
   {
     path: '',
     runGuardsAndResolvers: 'always',
